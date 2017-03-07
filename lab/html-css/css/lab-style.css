@@ -1,0 +1,34 @@
+body {
+    padding: 0px;
+}
+
+p {
+	position: static;
+}
+
+#header {
+    padding: 20px;
+    background: #ccc;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+#container {
+    border: solid;
+    border-color: black;
+	/*width: 960px;*/
+}
+
+.container2 {
+	background: green;
+	border:solid;
+}
+
+.container-content{
+	background: grey;
+	    width: 100%;
+
+}
+
