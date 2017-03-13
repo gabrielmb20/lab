@@ -18,6 +18,24 @@ h1{
 	width: 420px;
 }
 
+#container-columns {
+    border: solid;
+    border-color: orange;
+    display: flex; 
+    border: solid;
+	background: #DCDCDC;
+	font-size: 150%;
+}
+
+.containertwocols{
+	width: 40%;
+}
+
+.containerthreecols{
+	width: 60%;
+
+}
+
 .container2 {
 	border:solid;
 	border-width: 10px;
@@ -25,6 +43,7 @@ h1{
 }
 
 .container-content{
+    width: 100%;
 	position: relative;
 	border: solid;
 	background: #DCDCDC;
@@ -42,8 +61,53 @@ h1{
 .header{
 	position: absolute;
 	background-color: #808080;
-   	right: 0;
+	font-size: 200%;
    	width: auto;
    	height: 45px;
-   	font-size: 200%;
+   	right: 0;
+
+}
+
+.header-fixed{
+	position: fixed;
+	font-size: 200%;
+   	width: auto;
+   	height: 45px;
+	background-color: #808080;
+	left:100px;
+    top:100px;
+}
+
+.header-float{
+	float: left;
+	font-size: 150%;
+    width: 100px;		
+    height: 60px;
+   	margin-left: 10px;
+   	margin-top: 20px;
+}
+
+.twocols-1{
+	float: left;
+	width: 50%;
+}
+
+.twocols-2{
+	float: left;
+	width: 50%;
+}
+
+.threecols-1{
+	float: left;
+	width: 33%;
+}
+
+.threecols-2{
+	float: left;
+	width: 33%;
+}
+
+.threecols-3{
+	float: left;
+	width: 33%;
 }
