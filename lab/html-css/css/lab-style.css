@@ -1,34 +1,49 @@
-body {
-    padding: 0px;
-}
 
+/* position: static */
 p {
 	position: static;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
-#header {
-    padding: 20px;
-    background: #ccc;
+h1{
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
-#header h1 {
-    margin: 0;
-}
 
 #container {
     border: solid;
-    border-color: black;
-	/*width: 960px;*/
+    border-color: orange;
+	width: 420px;
 }
 
 .container2 {
-	background: green;
 	border:solid;
+	border-width: 10px;
+	border-color: black;
 }
 
 .container-content{
-	background: grey;
-	    width: 100%;
-
+	position: relative;
+	border: solid;
+	background: #DCDCDC;
+	font-size: 150%;
 }
 
+/* position: relative */
+.p2{
+	position: relative;
+	left: 30px;
+	top: 20px;
+}
+
+/* position: absolute */
+.header{
+	position: absolute;
+	background-color: #808080;
+   	right: 0;
+   	width: auto;
+   	height: 45px;
+   	font-size: 200%;
+}
