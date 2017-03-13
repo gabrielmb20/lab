@@ -29,11 +29,12 @@ h1{
 
 .containertwocols{
 	width: 40%;
+	border: solid;
 }
 
 .containerthreecols{
 	width: 60%;
-
+	border: solid;
 }
 
 .container2 {
@@ -111,3 +112,4 @@ h1{
 	float: left;
 	width: 33%;
 }
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Grid Layout</title>
+		<link rel="stylesheet" type="text/css" href="css/960_12_col.css" />
+		<style>
+			* {
+				font-family: Arial, Verdana, sans-serif;
+				color: #665544;
+				text-align: center;}
+			#nav, #feature, .article, #footer, #header {
+				background-color: red;
+				margin-top: 20px;
+				padding: 10px 0px 5px 0px;}
+			#feature, .article {
+				height: 100px;}
+			li {
+				display: inline;
+				padding: 5px;}
+		</style>
+	</head>
+	<body>
+		<div class="container_12 clearfix">
+			<div id="header" class="grid_13">
+				<p> 940px </p>
+			</div>
+			<div id="nav" class="grid_12">
+				<p> 940px </p>
+			</div>
+			<div id="feature" class="grid_12">
+				<p> 940px</p>
+			</div>
+			<div class="article grid_4">
+				<p> 300px</p>
+			</div>
+			<div class="article grid_4">
+				<p> 300px</p>
+			</div>
+			<div class="article grid_4">
+				<p> 300px</p>
+			</div>
+			<div id="footer" class="grid_12">
+				<p> 940px </p>
+			</div>
+		</div><!-- .container_12 -->
+	</body>
+</html>
