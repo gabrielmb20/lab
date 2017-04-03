@@ -56,40 +56,35 @@ $("#btn_calcular_edad").click(function () {
 });
 
 $("#boton_d").click(function() {
-    mostrarResultados('prueba', 'blue');
+    mostrarResultados($('#thing1').text(),'blue');
 });
 
 $("#boton_e").click(function() {
-    str = '';
-    $(".special").each(function() {
-        str += '[ '+this.innerHTML+'] ';
-    });
-    mostrarResultados(str,'red');
+	mostrarResultados($('.special').text(),'red');
 });
 
 
 $("#boton_f").click(function() {
-    str = '';
-    $("ul li").each(function() {
-        str += '[ '+this.innerHTML+'] ';
-    });
-    mostrarResultados(str,'green');
+    // str = '';
+    // $("ul li").each(function() {
+    //     str += '[ '+this.innerHTML+'] ';
+    // });
+    mostrarResultados($("ul").text(),'green');
 });
 
 $("#boton_g").click(function() {
-    str = $('#thing1').text();
-    $("#languages li").each(function() {
-        this.innerHTML=str;
-    });
-    mostrarResultados(str,'yellow');
+	var selector1 = $("#thing1").text();
+	var selector2 = $("#btn_calcular_edad").text();
+	$("#btn_calcular_edad").text(selector1);
+	$("#btn_calcular_edad").css("color", "yellow");
+	var mensaje = "Selector1 = " + selector1 + "\nSelector2 = " + selector2 + "\nSelector1 reemplaza Selector2.\n" + "Y cambia el color a Amarillo."
+	mostrarResultados(mensaje,"yellow");
 });
 
 $("#boton_h").click(function() {
-    str = '';
-    $("#languages > li").each(function() {
-        str += '[ '+this.innerHTML+'] ';
-    });
-    mostrarResultados(str,'pink');
+    var child = $("div").first().text();
+    $("div").first().css("color", "pink");
+	mostrarResultados(child, "pink");
 });
 
 
