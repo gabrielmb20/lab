@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
     <title>Laboratorio JS y JQuery</title>
 </head>
 
@@ -84,16 +83,26 @@
     </div>
     <div>
         <form title="Calcular Fecha de Nacimiento">
-            <input type="text" id="name" name="name" value="">
-            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" value="">
+            <input type="text" id="name" name="name" value="" placeholder="Nombre">
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" value="" placeholder="Día/Mes/Año">
             <button type="button" id="btn_calcular_edad">Calcular Edad</button>
             <br/>
             <textarea rows="4" cols="50" disabled id="mostrarResultado">Resultado</textarea>
         </form>
     </div>
-    <div class="lab-js-jquery-bs">
-        <button id="boton-anonima"> Probar Funcion Anonima </button>
+    <div>
+        <h1>
+            [jQuery] Básico
+        </h1>
+        <button type="button" id="boton_d">ID Selector</button>
+        <button type="button" id="boton_e">Class Selector</button>
+        <button type="button" id="boton_f">Tag Selector</button>
+        <button type="button" id="boton_g">Alterar</button>
+        <button type="button" id="boton_h">Child&Descendant Selectors</button>
     </div>
+    <!-- Laboratorio de CMS -->
+    <script src="js/script.js"></script>
+
 </body>
 
 </html>
