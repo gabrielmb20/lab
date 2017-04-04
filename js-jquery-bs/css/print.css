@@ -1,0 +1,15 @@
+@media print {
+    #container img, nav ul, footer ul{
+        display: none;
+    }
+    #content > section:nth-child(3) > div {
+        border: white solid 1px;
+        background: white;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    p{
+        font-size: 90%;
+    }
+
+}

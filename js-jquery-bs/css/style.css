@@ -1,0 +1,98 @@
+img{
+    height: 300px;
+    width: 100%;
+}
+
+footer{
+    background: white;
+    border-top: black solid 1px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    padding: 1%;
+}
+
+nav ul{
+    padding-top: 1%;
+}
+
+footer ul li{
+    display: inline;
+}
+
+ul li:not(:first-child) a {
+    border-left: black 1.5px solid;
+    text-decoration: underline;
+}
+
+footer ul li a{
+    padding: 1%;
+}
+
+h1 {
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: black;
+    font-size: 150%;
+    padding: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: blue;
+    font-size: 120%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: green;
+    font-size: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    color: red;
+    font-size: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#container{
+    padding-bottom: 10%;
+}
+
+.spanred {
+    color: red;
+}
+
+#content > section:nth-child(3) > div {
+    border: black solid 3px;
+    background: #FACB9A;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+
+@media (max-width: 600px) {
+    ul li:first-child a {
+        color:black;
+        background: #9A9A9A;
+    }
+    ul li:not(:first-child) a {
+        border-left: none;
+        text-decoration: underline;
+        background: #DDDDDD;
+    }
+    ul.col-sm-4{
+        padding: 0;
+    }
+    footer ul{
+        display: none;
+    }
+}
