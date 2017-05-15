@@ -3,7 +3,7 @@
 echo "Instalando dependencias..."
 echo 
 echo
-sudo apt install apache2 mysql-server libapache2-mod-php7.0 php7.0-mbstring php7.0-xml php7.0-mysql php7.0-gd php7.0-bcmath
+sudo apt install apache2 mysql-server libapache2-mod-php7.0 php7.0-mbstring php7.0-xml php7.0-mysql php7.0-gd php7.0-bcmath php-bcmath
 sleep 2
 
 clear
