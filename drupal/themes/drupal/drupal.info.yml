@@ -2,8 +2,8 @@ core: 8.x
 type: theme
 base theme: bootstrap
 
-name: 'Laboratorio Drupal'
-description: 'Uses the Bootstrap framework LESS source files and must be compiled (not for beginners).'
+name: 'LAB DRUPAL'
+description: 'Uses the Bootstrap framework Sass source files and must be compiled (not for beginners).'
 package: 'Bootstrap'
 
 regions:
@@ -22,3 +22,6 @@ regions:
 libraries:
   - 'drupal/global-styling'
   - 'drupal/bootstrap-scripts'
+
+js:
+    js/script.js: {}
