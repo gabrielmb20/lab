@@ -764,9 +764,9 @@ $settings['file_scan_ignore_directories'] = [
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'drupal_commerce',
-  'username' => 'drupaluser',
-  'password' => 'drupalpassword',
+  'database' => 'dp_114520031',
+  'username' => '114520031',
+  'password' => 'drupal114520031',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',

@@ -1,0 +1,36 @@
+<!DOCTYPE HTML> 
+<html>
+    <head>
+		<meta charset="UTF-8">  
+        <title>
+           	JavaScript Obtrusive
+        </title>
+    </head>
+    <body>
+    	<h1>
+    		JavaScript Obtrusive
+    	</h1>
+
+    	<div id="container">
+    		<p>
+    			Presione para obtener la hora 
+  			</p>
+            <button 
+                onclick="myFunction()">HORA
+            </button>
+    	</div>
+	</body>
+    <script>
+        function myFunction() {
+            var now = new Date();
+            var year    = now.getFullYear();
+            var month   = now.getMonth()+1; 
+            var day     = now.getDate();
+            var hour    = now.getHours();
+            var minute  = now.getMinutes();
+            var second  = now.getSeconds();
+            var t = document.createTextNode(year+'/'+month+'/'+day+' '+hour+':'+minute+':'+second);
+            document.body.appendChild(t);
+        }
+    </script>
+</html>
